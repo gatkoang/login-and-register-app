@@ -1,4 +1,4 @@
-package com.example.signinandregisterapp;
+package com.example.fastFood;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.signinandregisterapp;
+package com.example.fastFood;
 
 import android.content.ContentValues;
 import android.content.Context;

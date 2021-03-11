@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/recycler_bg2"
+    android:layout_marginRight="8dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FoodDetailsActivity3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="95dp"
+        android:layout_width="86dp"
+        app:srcCompat="@drawable/nuaikene"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/all_menu_image"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:id="@+id/all_menu_name"
+        app:layout_constraintStart_toEndOf="@+id/all_menu_image"
+        android:text="mula patotoes and meat"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/all_menu_name"
+        android:id="@+id/all_menu_note"
+        android:text="our best dish"
+        app:layout_constraintTop_toBottomOf="@+id/all_menu_name"/>
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_mdi_star_rate"
+        app:layout_constraintStart_toStartOf="@+id/all_menu_note"
+        android:id="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/all_menu_note"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        android:id="@+id/all_menu_rating"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        android:text="3"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:background="@drawable/time_bg"
+        android:layout_height="15dp"
+        android:layout_width="40dp"
+        app:layout_constraintTop_toTopOf="@+id/all_menu_rating"
+        app:layout_constraintBottom_toBottomOf="@+id/all_menu_rating"
+        android:id="@+id/all_menu_deliverytime"
+        app:layout_constraintStart_toEndOf="@+id/all_menu_rating"
+        android:text="50 mins"
+        android:layout_marginStart="16dp"
+        android:textSize="8sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/all_menu_deliverytime"
+        app:layout_constraintBottom_toBottomOf="@+id/all_menu_deliverytime"
+        android:id="@+id/all_menu_delivery_charge"
+        app:layout_constraintStart_toEndOf="@+id/all_menu_deliverytime"
+        android:text="Free Delivery"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/all_menu_price"
+        android:text="1.00"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

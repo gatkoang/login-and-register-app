@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011621859576",
+    "project_id": "login-and-logout-app",
+    "storage_bucket": "login-and-logout-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011621859576:android:e59490cea1314a35186b0d",
+        "android_client_info": {
+          "package_name": "com.example.loginandlogoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011621859576-54uhfin5uommkmp41kghr3jbu80nvtff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFqFpCxdLM28fKl1uqUOb6ezDvw88CrQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011621859576-54uhfin5uommkmp41kghr3jbu80nvtff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

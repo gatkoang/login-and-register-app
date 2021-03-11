@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.signinandregisterapp">
+    package="com.example.fastFood">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/save"
+        android:icon="@mipmap/resturant"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/save_round"
+        android:roundIcon="@mipmap/resturant_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SigninAndRegisterApp">
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.fastFood.FoodDetailsActivity3"></activity>
+        <activity android:name="com.example.fastFood.MainActivity2" />
+        <activity android:name="com.example.fastFood.LoginActivity" />
+        <activity android:name="com.example.fastFood.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

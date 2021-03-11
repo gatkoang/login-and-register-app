@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#65E1D5">
 
     <View
         android:id="@+id/header_view"
@@ -21,9 +22,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="24dp"
         android:gravity="center_horizontal"
-        android:text="welcome to Registration app"
+        android:text="Registration page"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/cardview_light_background"
         android:textSize="28sp"
         android:textStyle="bold" />
 
@@ -67,6 +68,8 @@
         android:layout_below="@+id/et_cpassword"
         android:layout_centerInParent="true"
         android:layout_marginTop="111dp"
+        android:background="@drawable/header_shape"
+        android:textColor="#DFD2D2"
         android:ems="10"
         android:text="Register" />
 
@@ -77,6 +80,8 @@
         android:layout_below="@+id/btn_register"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
+        android:background="@drawable/header_shape"
+        android:textColor="#DFD2D2"
         android:ems="10"
         android:text="Login" />
 

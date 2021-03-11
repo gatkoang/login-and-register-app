@@ -1,14 +1,15 @@
-package com.example.signinandregisterapp;
+package com.example.fastFood;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class LoginActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class LoginActivity extends AppCompatActivity{
     DatabaseClass databaseClass;
     EditText logusername, logpassword;
     Button logregister, loglogin;
@@ -44,12 +45,19 @@ public class LoginActivity extends AppCompatActivity {
                 Boolean checklogin = databaseClass.CheckLogin(username, password);
                 if(checklogin == true){
                     Toast.makeText(getApplicationContext(), "Login Successful", Toast.LENGTH_SHORT).show();
+                    mainActivity2();
 
                 }else{
                     Toast.makeText(getApplicationContext(), "Invalid username or password", Toast.LENGTH_SHORT).show();
                 }
             }
         });
+    }
+    public void mainActivity2(){
+        Intent intent = new Intent(LoginActivity.this, MainActivity2.class);
+        startActivity(intent);
+        finish();
+
     }
 
 }
